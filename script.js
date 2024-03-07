@@ -21,6 +21,9 @@ document.getElementById('form')
         btn.value = 'Login';
         alert(JSON.stringify(err));
       });
+
+    form.reset();
+    return false;
   });
 
 const togglePasswordButton = document.querySelector("#toggle-password");
